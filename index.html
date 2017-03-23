@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Home | TAC Business Solutions</title>
+    <link href="main.css" rel="stylesheet" type="text/css" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://beaverslider.com/code/2.0.1/beaverslider.js"></script>
+    <script src="http://beaverslider.com/code/2.0.1/beaverslider-effects.js"></script>
+    <script>
+        $(function() {
+            var slider = new BeaverSlider({
+                structure: {
+                    container: {
+                        id: "my-slider",
+                        width: 1000,
+                        height: 420
+                    }
+                },
+                content: {
+                    images: [
+                        "images/slide1.png",
+                        "images/slide2.png",
+                        "images/slide3.png"
+                    ]
+                },
+                animation: {
+                    effects: effectSets["slider: big set 2"],
+                    interval: 2500
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="top">
+        <div id="topcontainer">
+            <div id="taclogo"><img src="images/taclogo150.png" /></div>
+            <div id="certifications"><img src="images/certifications.png" /></div>
+        </div>
+    </div>
+    <div id="nav">
+        <div id="navcontainer">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="mid">
+        <div id="midcontainer">
+            <div id="slider">
+                <div id="my-slider"></div>
+            </div>
+            <div id="midcontent">
+                <div id="midcontenta">
+                    <h3> Services we provide:</h3>
+                    <ul>
+                        <li>Income Tax Returns:
+                            <ul>
+                                <li>Individual</li>
+                                <li>Partnerships</li>
+                                <li>Companies</li>
+                                <li>Superannuation Funds</li>
+                            </ul>
+                        </li>
+                        <li>Goods and Services Tax</li>
+                        <li>Audits</li>
+                        <li>Fringe Benifets Tax</li>
+                        <li>Compliance issues with lodgement programs</li>
+                        <li>Notices of Assessments</li>
+                        <li>Objections</li>
+                        <li>All Taxations Office Correspondence</li>
+                        <li>Research and development</li>
+                    </ul>
+                    <p> More information is provided in the
+                        <a href="services.html">services</a> page. </p>
+                </div>
+                <div id="midcontentb">
+                    <div id="midcontentba">
+                        <h3>Our Details:</h3>
+
+                        <ul>
+                            <li>Address: 70 Harris St, Harris Park 2150</li>
+                            <li>Telephone: (02) 9806 9545</li>
+                            <li>Email: office@tacaust.com.au</li>
+                        </ul>
+                    </div>
+                    <div id="midcontentbb">
+                        <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2FTAC-Australia-Pty-Ltd-1009708602495755%2F&width=477&height=35&layout=standard&size=large&show_faces=false&appId" width="477" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bot">
+        <div id="botcontainer">
+            <p>TAC Australia Pty Ltd &#169; 2017</p>
+        </div>
+    </div>
+</body>
+
+</html>

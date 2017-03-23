@@ -1,0 +1,203 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+#top {
+    width:100%;
+    float:left;
+}
+
+#nav {
+    width:100%;
+    float:left;
+    margin-top: 5px;
+}
+
+#mid {
+    width:100%;
+    float:left;
+    margin-top: 5px;
+}
+
+#bot {
+    width:100%;
+    float:left;
+    color:white;
+    margin-top: 5px;
+    background: #333333;
+}
+
+#topcontainer {
+    width:1000px;
+    height: 150px;
+    margin:auto;
+}
+
+#taclogo {
+    width:500px;
+    height:150px;
+    float:left;
+}
+
+#certifications {
+    width:500px;
+    height:150px;
+    float:left;
+}
+
+#navcontainer {
+    width: 1000px;
+    margin: auto;
+}
+
+.nav {
+    background: #3F86BA;
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+    border-radius: 10px;
+}
+.nav > li {
+    display: inline-block;
+    padding-right:50px;
+}
+
+#midcontentba li {
+    text-align: center;
+    list-style-type: none;
+    padding: 5px;
+}
+.nav > li > a {
+    text-decoration: none;
+    color:white;
+}
+.nav > li > a:hover {
+    color:black;
+}
+
+#slider {
+    width:1000px;
+    height:420px;
+    float: left;
+}
+
+#midcontainer {
+    width: 1000px;
+    margin: auto;
+}
+
+#midcontent {
+    width: 1000px;
+    float: left;
+    margin-top: 5px;
+}
+
+#botcontainer {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    margin: 10px, 0px
+    padding: 0;
+}
+
+p > a {
+    text-decoration: none;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+#midcontent ul {
+    margin: 0;
+}
+
+#midcontentservices > ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+#midcontentservices > ul > li > h4 {
+    padding: 0;
+    margin: 10px 0px;
+}
+#midcontent li {
+    padding: 4px;
+}
+
+#midcontenta ul > li > ul {
+    margin: 0;
+	margin-top:5px;
+}
+
+#midcontenta {
+    width: 477px;
+    padding: 10px;
+    background: #EEEEEE; 
+    border-radius: 10px;
+    float:left;
+}
+
+#midcontentb {
+    width: 477px;
+    margin-left: 6px;
+    float:left;
+}
+
+#midcontentba {
+    width:477px;
+    padding: 10px;
+    background: #EEEEEE;
+    border-radius: 10px;
+}
+
+#midcontentbb {
+    width:477px;
+    padding: 10px;
+    background: #EEEEEE;
+    margin-top:5px;
+    border-radius: 10px;
+}
+#midcontentabout {
+    width:980px;
+    margin: auto;
+    background: #EEEEEE;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#midcontentservices {
+    width:960px;
+    margin: auto;
+    background: #EEEEEE;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+li > h4 {
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+#listformattingconsistency {
+    list-style-type: none;
+}
+
+#listformattingconsistency li {
+    margin-top: 10px;
+}
+
+#listformatconsistency1 ul > li{
+    margin-top: 10px;    
+}
