@@ -12,7 +12,6 @@ html, body {
 #nav {
     width:100%;
     float:left;
-    margin-top: 5px;
 }
 
 #mid {
@@ -200,4 +199,10 @@ h2 {
 
 #listformatconsistency1 ul > li{
     margin-top: 10px;    
+}
+
+iframe {
+    margin:auto;
+    padding: 0;
+    display: block;
 }
