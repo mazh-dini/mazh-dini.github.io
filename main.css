@@ -1,49 +1,23 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 #top {
-    width:100%;
-    float:left;
-}
-
-#nav {
-    width:100%;
-    float:left;
-}
-
-#mid {
-    width:100%;
-    float:left;
-    margin-top: 5px;
-}
-
-#bot {
-    width:100%;
-    float:left;
-    color:white;
-    margin-top: 5px;
-    background: #333333;
+    width: 100%;
+    float: left;
 }
 
 #topcontainer {
-    width:1000px;
+    width: 1000px;
     height: 150px;
-    margin:auto;
+    margin: auto;
 }
 
-#taclogo {
-    width:500px;
-    height:150px;
-    float:left;
-}
-
-#certifications {
-    width:500px;
-    height:150px;
-    float:left;
+#nav {
+    width: 100%;
+    float: left;
 }
 
 #navcontainer {
@@ -52,45 +26,32 @@ html, body {
 }
 
 .nav {
-    background: #3F86BA;
     list-style: none;
     text-align: center;
-    margin: 0px;
+    margin: 0;
     padding: 10px 0px;
+    background: #3F86BA;
     border-radius: 10px;
 }
-.nav > li {
+
+.nav>li {
     display: inline-block;
-    padding-right:50px;
+    padding: 0px 25px 0px 25px;
 }
 
-#midcontentba li {
-    text-align: center;
-    list-style-type: none;
-    padding: 5px;
-}
-.nav > li > a {
+.nav>li a {
     text-decoration: none;
-    color:white;
-}
-.nav > li > a:hover {
-    color:black;
+    color: white;
 }
 
-#slider {
-    width:1000px;
-    height:420px;
+.nav>li>a:hover {
+    color: black;
+}
+
+#bot {
+    width: 100%;
     float: left;
-}
-
-#midcontainer {
-    width: 1000px;
-    margin: auto;
-}
-
-#midcontent {
-    width: 1000px;
-    float: left;
+    background: #333333;
     margin-top: 5px;
 }
 
@@ -98,111 +59,279 @@ html, body {
     width: 1000px;
     margin: auto;
     text-align: center;
+    color: white;
 }
 
-p {
-    margin: 10px, 0px
-    padding: 0;
+#mid {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
 }
 
-p > a {
-    text-decoration: none;
+#midcontainer {
+    width: 1000px;
+    margin: auto;
+    overflow: auto;
+}
+
+#slider {
+    width: 1000px;
+    float: left;
+}
+
+#midhomecontent {
+    width: 1000px;
+    float: left;
+    margin-top: 5px;
+}
+
+#midhomecontent h3 {
+    margin: 0;
+    padding: 5px;
 }
 
 h3 {
     margin: 0;
-    padding-bottom: 10px;
+    padding: 5px;
+    text-align: center;
 }
 
-#midcontent ul {
-    margin: 0;
+
+
+#midhomeservices ul {
+    margin: 5px 0px 0px 0px;
+    list-style-type: disc;
 }
 
-#midcontentservices > ul {
-    margin: 0;
+#midservices>ul>li {
     list-style-type: none;
-    padding: 0;
 }
 
-#midcontentservices > ul > li > h4 {
-    padding: 0;
-    margin: 10px 0px;
-}
-#midcontent li {
-    padding: 4px;
-}
-
-#midcontenta ul > li > ul {
+#midhomecontent li {
     margin: 0;
-	margin-top:5px;
+    padding: 5px;
 }
 
-#midcontenta {
+#midhomeservices {
     width: 477px;
-    padding: 10px;
-    background: #EEEEEE; 
+    float: left;
     border-radius: 10px;
-    float:left;
+    padding: 10px;
+    background: #f1f3f4;
 }
 
-#midcontentb {
-    width: 477px;
+#midhomeservices p {
+    margin: 0;
+    padding: 5px;
+}
+
+#midhomedetails {
+    width: 497px;
+    float: left;
     margin-left: 6px;
-    float:left;
 }
 
-#midcontentba {
-    width:477px;
+#midhomeourdetails {
+    width: 477px;
+    float: left;
     padding: 10px;
-    background: #EEEEEE;
     border-radius: 10px;
+    background: #f1f3f4;
 }
 
-#midcontentbb {
-    width:477px;
-    padding: 10px;
-    background: #EEEEEE;
-    margin-top:5px;
-    border-radius: 10px;
-}
-#midcontentabout {
-    width:980px;
-    margin: auto;
-    background: #EEEEEE;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-#midcontentservices {
-    width:960px;
-    margin: auto;
-    background: #EEEEEE;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-li > h4 {
-    padding: 0;
-}
-
-h2 {
+#midhomeourdetails ul {
     margin: 0;
 }
 
-#listformattingconsistency {
+#midhomeourdetails li {
+    text-align: center;
     list-style-type: none;
 }
 
-#listformattingconsistency li {
-    margin-top: 10px;
-}
-
-#listformatconsistency1 ul > li{
-    margin-top: 10px;    
+#midhomefacebook {
+    width: 477px;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background: #f1f3f4;
 }
 
 iframe {
-    margin:auto;
-    padding: 0;
     display: block;
+    margin: auto;
+}
+
+#midabout {
+    padding: 10px;
+    background: #f1f3f4;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+#botcontainer p{
+	margin:15px;
+}
+h2 {
+    margin: 0;
+    padding: 5px 0px;
+    text-align: center;
+}
+
+#midcontact {
+    width: 1000px;
+    margin: auto;
+}
+
+#contactmap {
+    width:980px;
+    height: auto;
+    float: left;
+    padding: 10px;
+    background: #f1f3f4;
+    border-radius: 10px;
+}
+
+#ourdetials {
+    width: 477px;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    background: #f1f3f4;
+}
+
+#contactform {
+    width: 477px;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 6px;
+    background: #f1f3f4;
+}
+
+form input{
+    width: 360px;
+    float: right;
+}
+
+textarea {
+    width: 99%;
+    display: block;
+    margin: auto;
+}
+
+#ourdetails {
+    margin-left: 726px;
+    margin-top: 53px;
+    width: 226px;
+    height: 275px;
+    padding: 10px;
+    text-align: center;
+}
+
+#details {
+    width: 477px;
+    float: left;
+    padding: 10px;
+    background: #f1f3f4;
+    border-radius: 10px;
+}
+
+#details li{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+}
+
+#details ul{
+    margin: 0;
+    padding: 10px 0px;
+}
+
+
+#detailcontainer {
+    width: 497px;
+    float: left;
+    margin-top: 5px;
+}
+
+#followus {
+    width: 477px;
+    float: left;
+    padding: 10px;
+    background: #f1f3f4;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+#partners {
+    width: 1000px;
+    height: 250px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#rabii {
+    width: 495px;
+    height: 250px;
+    margin-left: 2px;
+    float:left;
+    background: #f1f3f4;
+    border-radius: 10px;
+}
+
+#edwin {
+    width: 495px;
+    height: 250px;
+    float: left;
+    margin-left: 6px;
+    background: #f1f3f4;
+    border-radius: 10px;
+}
+
+#contactpicture {
+    width: 1000px;
+    height: 420px;
+    float: left;
+    margin-bottom: 5px;
+    background-image: url(images/contact.png);
+}
+
+#aboutus {
+    width: 477px;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f1f3f4;
+    margin-top: 5px;
+}
+#aboutus p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+div {
+    
+}
+
+#opentime {
+    width: 477px;
+    float: left;
+    padding: 10px;
+    border-radius: 10px;
+    background: #f1f3f4;
+    margin-top: 5px;
+}
+
+#opentime p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
 }

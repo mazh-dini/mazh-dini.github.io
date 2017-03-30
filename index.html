@@ -1,105 +1,109 @@
 <!doctype html>
-<html>
+<hmtl>
 
-<head>
-    <title>Home | TAC Business Solutions</title>
-    <link href="main.css" rel="stylesheet" type="text/css" />
-    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="https://rawgit.com/mazh-dini/mazh-dini.github.io/master/scripts/beaverslider.js"></script>
-    <script src="https://rawgit.com/mazh-dini/mazh-dini.github.io/master/scripts/beaverslider-effects.js"></script>
-    <script>
-        $(function() {
-            var slider = new BeaverSlider({
-                structure: {
-                    container: {
-                        id: "my-slider",
-                        width: 1000,
-                        height: 420
+    <head>
+        <title>Home | TAC</title>
+        <link href="main.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="scripts/beaverslider.js"></script>
+        <script src="scripts/beaverslider-effects.js"></script>
+        <script>
+            $(function() {
+                var slider = new BeaverSlider({
+                    structure: {
+                        container: {
+                            id: "my-slider",
+                            width: 1000,
+                            height: 420
+                        }
+                    },
+                    content: {
+                        images: [
+                            "https://rawgit.com/mazh-dini/mazh-dini.github.io/master/images/slide1.png",
+                            "https://rawgit.com/mazh-dini/mazh-dini.github.io/master/images/slide2.png",
+                            "https://rawgit.com/mazh-dini/mazh-dini.github.io/master/images/slide3.png"
+                        ]
+                    },
+                    animation: {
+                        effects: effectSets["slider: big set 2"],
+                        interval: 2500
                     }
-                },
-                content: {
-                    images: [
-                        "https://rawgit.com/mazh-dini/mazh-dini.github.io/master/images/slide1.png",
-                        "https://rawgit.com/mazh-dini/mazh-dini.github.io/master/images/slide2.png",
-                        "https://rawgit.com/mazh-dini/mazh-dini.github.io/master/images/slide3.png"
-                    ]
-                },
-                animation: {
-                    effects: effectSets["slider: big set 2"],
-                    interval: 2500
-                }
+                });
             });
-        });
-    </script>
-</head>
+        </script>
+    </head>
 
-<body>
-    <div id="top">
-        <div id="topcontainer">
-            <img src="images/taclogowithcert.png" />
-        </div>
-    </div>
-    <div id="nav">
-        <div id="navcontainer">
-            <ul class="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contactus.html">Contact Us</a></li>
-            </ul>
-        </div>
-    </div>
-    <div id="mid">
-        <div id="midcontainer">
-            <div id="slider">
-                <div id="my-slider"></div>
+    <body>
+        <div id="top">
+            <div id="topcontainer">
+                <img src="images/taclogowithcert.png" />
             </div>
-            <div id="midcontent">
-                <div id="midcontenta">
-                    <h3> Services we provide:</h3>
-                    <ul>
-                        <li>Income Tax Returns:
-                            <ul>
-                                <li>Individual</li>
-                                <li>Partnerships</li>
-                                <li>Companies</li>
-                                <li>Superannuation Funds</li>
-                            </ul>
-                        </li>
-                        <li>Goods and Services Tax</li>
-                        <li>Audits</li>
-                        <li>Fringe Benifets Tax</li>
-                        <li>Compliance issues with lodgement programs</li>
-                        <li>Notices of Assessments</li>
-                        <li>Objections</li>
-                        <li>All Taxations Office Correspondence</li>
-                        <li>Research and development</li>
-                    </ul>
-                    <p> More information is provided in the
-                        <a href="services.html">services</a> page. </p>
+        </div>
+        <div id="nav">
+            <div id="navcontainer">
+                <ul class="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="mid">
+            <div id="midcontainer">
+                <div id="slider">
+                    <div id="my-slider"></div>
                 </div>
-                <div id="midcontentb">
-                    <div id="midcontentba">
-                        <h3>Our Details:</h3>
-
+                <div id="midhomecontent">
+                    <div id="midhomeservices">
+                        <h3> Services we provide:</h3>
                         <ul>
-                            <li>Address: 70 Harris St, Harris Park 2150</li>
-                            <li>Telephone: (02) 9806 9545</li>
-                            <li>Email: office@tacaust.com.au</li>
+                            <li>Income Tax Returns:
+                                <ul>
+                                    <li>Individual</li>
+                                    <li>Partnerships</li>
+                                    <li>Companies</li>
+                                    <li>Superannuation Funds</li>
+                                </ul>
+                            </li>
+                            <li>Goods and Services Tax</li>
+                            <li>Audits</li>
+                            <li>Fringe Benifets Tax</li>
+                            <li>Compliance issues with lodgement programs</li>
+                            <li>Notices of Assessments</li>
+                            <li>Objections</li>
+                            <li>All Taxations Office Correspondence</li>
+                            <li>Research and development</li>
                         </ul>
+                        <p> More information is provided in the <a href="services.html">services</a> page. </p>
                     </div>
-                    <div id="midcontentbb">
-                        <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2FTAC-Australia-Pty-Ltd-1009708602495755%2F&width=477&height=35&layout=standard&size=large&show_faces=false&appId" width="477" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    <div id="midhomedetails">
+                        <div id="midhomeourdetails">
+                            <h3>Our Details:</h3>
+                            <ul>
+                                <li>Address: 70 Harris St, Harris Park 2150</li>
+                                <li>Telephone: (02) 9806 9545</li>
+                                <li>Email: office@tacaust.com.au</li>
+                            </ul>
+                        </div>
+                        <div id="aboutus">
+                            <p>Want to know more about us? <a href="about.html">Click here!</a></p>
+                        </div>
+                        <div id="opentime">
+                            <p>Feel free to give us a call, we are open Monday to Friday, 9:00am to 5:00pm except for public holidays.</p>
+                        </div>
+                        <div id="midhomefacebook">
+                            <iframe src="https://www.facebook.com/plugins/follow.php?href=https%3A%2F%2Fwww.facebook.com%2FTAC-Australia-Pty-Ltd-1009708602495755%2F&width=477&height=35&layout=standard&size=large&show_faces=false&appId" width="440" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div id="bot">
-        <div id="botcontainer">
-            <p>TAC Australia Pty Ltd &#169; 2017</p>
+        <div id="bot">
+            <div id="botcontainer">
+                <p>TAC Australia Pty Ltd &#169; 2017</p>
+            </div>
         </div>
-    </div>
-</body>
-
-</html>
+    </body>
+</hmtl>
