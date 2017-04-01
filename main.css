@@ -1,160 +1,130 @@
 html, body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, p, ul, li {
+	margin:0;
+	padding:0;
 }
 
 #top {
-    width: 100%;
-    float: left;
+	width:100%;
+	float:left;
 }
-
 #topcontainer {
-    width: 1000px;
-    height: 150px;
-    margin: auto;
+	width:1000px;
+	margin:auto;
 }
-
-#nav {
-    width: 100%;
-    float: left;
+.navcontainer {
+	width:300px;
+	height:50px;
+	margin-top:50px;
+	margin-left:25px;
+	margin-right:25px;
+	float:left;
+	background:#004f96;
+	border-radius:5px;
 }
-
-#navcontainer {
-    width: 1000px;
-    margin: auto;
-}
-
-.nav {
-    list-style: none;
+.navcontainer ul {
+	list-style-type:none;
     text-align: center;
-    margin: 0;
-    padding: 10px 0px;
-    background: #3F86BA;
-    border-radius: 10px;
+    padding: 16px;
+    border-radius: 5px;
 }
-
-.nav>li {
-    display: inline-block;
-    padding: 0px 25px 0px 25px;
+.navcontainer ul li {
+	display:inline;
+    padding: 0px 30px;
 }
-
-.nav>li a {
+.navcontainer ul li a {
     text-decoration: none;
     color: white;
 }
-
-.nav>li>a:hover {
-    color: black;
+.navcontainer ul li a:hover {
+    color: #00CCFF;
 }
-
-#bot {
-    width: 100%;
-    float: left;
-    background: #333333;
-    margin-top: 5px;
-}
-
-#botcontainer {
-    width: 1000px;
-    margin: auto;
-    text-align: center;
-    color: white;
+#taclogo {
+	width:290px;
+	height:140px;
+	float:left;
+	padding:5px;
 }
 
 #mid {
-    width: 100%;
-    float: left;
-    margin-top: 5px;
+	width:100%;
+	float:left;
+	margin-top:10px;
+}
+#mad {
+	width:100%;
+	float:left;
+}
+#madcont{
+	width:1000px;
+	margin:auto;
+    padding: 5px;
+	border-radius:5px;
+	background:#004f96;
+}
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+  }
+
+
+#mbd {
+    width:100%;
+	float:left;
+	margin-top:5px;
 }
 
-#midcontainer {
+#mbdcontainer {
     width: 1000px;
     margin: auto;
-    overflow: auto;
 }
 
-#slider {
-    width: 1000px;
+#mbdcontainerleft {
+    width: 497px;
     float: left;
+    padding: 10px;
+    border:2px solid #004f96;
+    border-radius: 5px;
 }
 
-#midhomecontent {
-    width: 1000px;
-    float: left;
-    margin-top: 5px;
-}
-
-#midhomecontent h3 {
-    margin: 0;
+#mbd h3, p {
     padding: 5px;
 }
-
-h3 {
-    margin: 0;
-    padding: 5px;
+#mbdcontainerleft p, li {
+    font-size: 16px;
+}
+#mbdcontainerright {
     text-align: center;
 }
-
-
-
-#midhomeservices ul {
-    margin: 5px 0px 0px 0px;
-    list-style-type: disc;
+#mbd {
+    font-size: 18px;
+}
+#mbd ul {
+    padding-left: 20px;
+}
+#mbd li {
+    padding: 2px;
+}
+#mbd ul > li > ul {
+    list-style-type: square;
 }
 
-#midservices>ul>li {
-    list-style-type: none;
-}
-
-#midhomecontent li {
-    margin: 0;
-    padding: 5px;
-}
-
-#midhomeservices {
-    width: 477px;
-    float: left;
-    border-radius: 10px;
-    padding: 10px;
-    background: #f1f3f4;
-}
-
-#midhomeservices p {
-    margin: 0;
-    padding: 5px;
-}
-
-#midhomedetails {
+#mbdcontainerright {
     width: 497px;
     float: left;
     margin-left: 6px;
 }
 
-#midhomeourdetails {
-    width: 477px;
+.mbdcontainerrightcont {
+    width: 497px;
     float: left;
     padding: 10px;
-    border-radius: 10px;
-    background: #f1f3f4;
-}
-
-#midhomeourdetails ul {
-    margin: 0;
-}
-
-#midhomeourdetails li {
-    text-align: center;
-    list-style-type: none;
-}
-
-#midhomefacebook {
-    width: 477px;
-    float: left;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 5px;
-    background: #f1f3f4;
+    border:2px solid #004f96;
+    border-radius: 5px;
 }
 
 iframe {
@@ -162,176 +132,37 @@ iframe {
     margin: auto;
 }
 
-#midabout {
-    padding: 10px;
-    background: #f1f3f4;
-    border-radius: 10px;
-}
-
-a {
-    text-decoration: none;
-    color: blue;
-}
-
-#botcontainer p{
-	margin:15px;
-}
-h2 {
-    margin: 0;
-    padding: 5px 0px;
+#bot {
+    width: 100%;
+    float: left;
+    margin-top: 5px;
+    background: #053479;
     text-align: center;
+    color: white;
+}
+#bot p {
+    padding: 15px;
 }
 
-#midcontact {
+#botleft {
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+
+#botmid {
+    width: 400px;
+    height: 50px;
+    float: left;
+}
+
+#botright {
+    width: 300px;
+    height: 50px;
+    float: left;
+}
+
+#botcontainer {
     width: 1000px;
     margin: auto;
-}
-
-#contactmap {
-    width:980px;
-    height: auto;
-    float: left;
-    padding: 10px;
-    background: #f1f3f4;
-    border-radius: 10px;
-}
-
-#ourdetials {
-    width: 477px;
-    float: left;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 5px;
-    background: #f1f3f4;
-}
-
-#contactform {
-    width: 477px;
-    float: left;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 5px;
-    margin-left: 6px;
-    background: #f1f3f4;
-}
-
-form input{
-    width: 360px;
-    float: right;
-}
-
-textarea {
-    width: 99%;
-    display: block;
-    margin: auto;
-}
-
-#ourdetails {
-    margin-left: 726px;
-    margin-top: 53px;
-    width: 226px;
-    height: 275px;
-    padding: 10px;
-    text-align: center;
-}
-
-#details {
-    width: 477px;
-    float: left;
-    padding: 10px;
-    background: #f1f3f4;
-    border-radius: 10px;
-}
-
-#details li{
-    list-style-type: none;
-    text-align: center;
-    margin: 0;
-}
-
-#details ul{
-    margin: 0;
-    padding: 10px 0px;
-}
-
-
-#detailcontainer {
-    width: 497px;
-    float: left;
-    margin-top: 5px;
-}
-
-#followus {
-    width: 477px;
-    float: left;
-    padding: 10px;
-    background: #f1f3f4;
-    border-radius: 10px;
-    margin-top: 5px;
-}
-
-#partners {
-    width: 1000px;
-    height: 250px;
-    float: left;
-    margin-bottom: 5px;
-}
-
-#rabii {
-    width: 495px;
-    height: 250px;
-    margin-left: 2px;
-    float:left;
-    background: #f1f3f4;
-    border-radius: 10px;
-}
-
-#edwin {
-    width: 495px;
-    height: 250px;
-    float: left;
-    margin-left: 6px;
-    background: #f1f3f4;
-    border-radius: 10px;
-}
-
-#contactpicture {
-    width: 1000px;
-    height: 420px;
-    float: left;
-    margin-bottom: 5px;
-    background-image: url(images/contact.png);
-}
-
-#aboutus {
-    width: 477px;
-    float: left;
-    padding: 10px;
-    border-radius: 10px;
-    background: #f1f3f4;
-    margin-top: 5px;
-}
-#aboutus p {
-    margin: 0;
-    padding: 5px;
-    text-align: center;
-}
-
-div {
-    
-}
-
-#opentime {
-    width: 477px;
-    float: left;
-    padding: 10px;
-    border-radius: 10px;
-    background: #f1f3f4;
-    margin-top: 5px;
-}
-
-#opentime p {
-    margin: 0;
-    padding: 5px;
-    text-align: center;
 }
