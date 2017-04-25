@@ -4,20 +4,24 @@
 }
 
 #rabii {
-    width: 495px;
+    width: 491px;
     height: 250px;
     float: left;
     background-image: url("../images/rabii.png");
-    background-size: 495px 250px;
+    background-size: 491px 250px;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 #edwin {
-    width: 495px;
+    width: 491px;
     height: 250px;
     float: left;
     background-image: url("../images/edwin.png");
-    background-size: 495px 250px;
+    background-size: 491px 250px;
     margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 #edwin_content {
@@ -44,9 +48,44 @@ p {
     padding: 10px 0px;
 }
 
-#partners a {
+#mid a {
     text-decoration: none;
 }
-#partners a:hover {
+#mid a:hover {
     color:black;
+}
+.contact_main {
+    width: 300px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#contact_container {
+    width: 1000px;
+    margin: auto;
+}
+
+#contact_main p {
+    padding: 5px 0px;
+}
+
+.margin {
+    margin-left: 20px;
+}
+#contact_main li {
+    margin: 0px;
+}
+.contact_main li {
+    text-align: center;
+    padding: 5px;
+}
+
+#fb {
+    border:1px solid white;
+}
+#fb:hover {
+    border-radius: 5px;
+    border:1px solid red;
 }
