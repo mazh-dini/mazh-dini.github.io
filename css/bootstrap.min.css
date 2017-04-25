@@ -1586,7 +1586,7 @@ hr {
     text-shadow: none
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1px) {
     .carousel-control .glyphicon-chevron-left,
     .carousel-control .glyphicon-chevron-right,
     .carousel-control .icon-prev,
