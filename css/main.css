@@ -19,6 +19,13 @@ h1, h2, h3, h4, p, ul, li, a {
     float: left;
 }
 
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-control.left {
+    background-image: none;
+}
+
 /* 
    Header START
 */
@@ -86,7 +93,7 @@ h1, h2, h3, h4, p, ul, li, a {
 	float:left;
 }
 #madcont{
-	width:1200px;
+	width:80%;
 	margin:auto;
     padding: 5px;
 	border-radius:5px;
@@ -159,7 +166,7 @@ h1, h2, h3, h4, p, ul, li, a {
     border-top: 1px solid white;
 }
 #footer_logo_container p {
-    padding: 10px;
+    padding: 15px;
 }
 
 /*

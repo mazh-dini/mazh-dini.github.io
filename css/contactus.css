@@ -1,0 +1,52 @@
+#partners {
+    width: 1000px;
+    margin: auto;
+}
+
+#rabii {
+    width: 495px;
+    height: 250px;
+    float: left;
+    background-image: url("../images/rabii.png");
+    background-size: 495px 250px;
+}
+
+#edwin {
+    width: 495px;
+    height: 250px;
+    float: left;
+    background-image: url("../images/edwin.png");
+    background-size: 495px 250px;
+    margin-left: 10px;
+}
+
+#edwin_content {
+    width: 247.5px;
+    margin-top: 90px;
+    float: right;
+}
+
+#rabii_content {
+    width: 247.5px;
+    margin-top: 90px;
+    float: right;
+}
+
+#partners h2 {
+    padding: 2px 0px;
+}
+
+p {
+    padding: 0px;
+}
+
+.email {
+    padding: 10px 0px;
+}
+
+#partners a {
+    text-decoration: none;
+}
+#partners a:hover {
+    color:black;
+}
